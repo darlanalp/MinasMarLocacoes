@@ -1,0 +1,86 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Principal.master.cs" Inherits="Principal" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">  
+    <title>..:::MinasMar Locações de Equipamentos</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="P_Css.css" rel="stylesheet" type="text/css" />
+    <link href="P_Menu.css" rel="stylesheet" type="text/css" />        
+    <style type="text/css">
+a:link {
+	 text-decoration: none;
+	color: #422675;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #FF0000;
+}
+a:active {
+	text-decoration: none;
+	color:#422675;
+}
+        .style1
+        {
+            font-size: 11px;
+            font-style: italic;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        .style2
+        {
+            font-family: "Trebuchet MS";
+            font-weight: bold;
+            color: #FF0000;
+            font-size:10px;
+        }
+        </style>
+</head>
+<body>        
+    <form id="form1" runat="server" style="text-align: center">
+    <div>
+        <div id="container">
+            <div style=" background-color: #432774; height: 11px;" ></div>
+            <div id="topo">
+                
+                <asp:Image ID="Image1" runat="server" Height="171px" 
+                    ImageUrl="~/images/MinasMarTop.png" Width="614px" />
+                
+            </div>
+            <div id="menu_global">      
+              <center>           
+               <ul id="MenuBar1" class="MenuBarHorizontal">
+                 <li><a href="Default.aspx" title="Página inicial">Home</a> </li>
+                 <li><a href="Empresa.aspx" title="Empresa">Empresa</a></li>
+                 <li><a href="Contato.aspx" title="Contato">Contato</a> </li>                        
+               </ul>  
+              </center>              
+            </div>        
+            <div style="height: 9px">
+            </div>    
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">        
+            <p style="height: 120px; background-color: #FFFFFF;">
+            </p>
+        </asp:ContentPlaceHolder>                            
+        <span class="style1">Disse Jesus: Eu sou o caminho, e a verdade, e a vida , ninguém vem ao Pai senão por mim. - Joã0 14:6 
+        </span>
+        <div id="rodape">
+            MinasMar Locações e Equipamentos&nbsp; - Telefone: (31) 3473 - 0442         
+        </div>
+        <div>
+           <asp:HyperLink ID="HyperLink1" CssClass="style2" runat="server" NavigateUrl="mailto:darlanalp@gmail.com">By DR Soluções</asp:HyperLink>  
+        </div>
+       
+    </div>
+                      
+    </form>
+</body>
+</html>

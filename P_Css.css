@@ -1,0 +1,167 @@
+﻿body {
+
+	margin: 0;
+
+	padding:0;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	line-height: 1.5em;
+
+	color: #000000;	
+
+	width: 100%;
+
+	display: table;
+	
+	background-color:#FCFCFC;
+}
+
+#topo
+{
+	margin: auto auto auto 0px;
+	height: 175px;
+	width: 874px;
+	text-align: center;
+	background-color: #DEF0FA;
+}
+
+#container
+{
+	width: 875px;
+	margin: auto;
+	height: 182px;
+	background-color: #FFFFFF;
+}
+
+#menu_global
+{
+	height: 23px;
+	background-color: #432774;
+	text-align: left;
+}
+#rodape
+{
+	background-color:#422675;
+	height: 20px;
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 10px;
+}
+.modalPopup1_Background
+{
+    background-color: #F5F7D8;
+    filter: alpha(opacity=70) !important;
+    opacity: 0.7;
+    top: 0px !important;
+    left: 0px !important;
+    position: absolute !important;
+    z-index: 1 !important;
+}
+
+.modalPopup1
+{
+	background-color: #FFFFFF;
+	padding: 3px;
+	z-index: 10001;
+}
+
+.tablePrd
+{
+	caption-side: top;
+	vertical-align: top;
+}
+
+.painelPrd
+{
+	background-color: #DEF0FA;
+	font-size: 12px;
+	cursor: default;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #422675;
+	font-weight: bold;
+	text-align: center;
+}
+.quadroPrd
+{
+	border: thin solid #432774;
+	height: 130px;
+	margin: 1px;
+	padding: 1px;
+	text-align: center;
+	width: 200px;
+}
+
+#contato
+{
+	border: thin solid #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	margin-top: 0px;
+	background-color: #F5F7D8;
+	height: 17px;
+	width: 518px;
+}
+#tituloEquip
+{
+	border: thin solid #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #432774;
+	margin-top: 0px;
+	background-color: #DEF0FA;
+	height: 17px;
+	width: 545px;
+}
+#subTituloDefault
+{
+	border: thin solid #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #422675;
+	margin-top: 0px;
+	background-color: #FFFFFF;
+	height: 17px;
+	width: 871px;
+	text-align: left;
+}
+.input300
+{
+	outline: none;
+	border: 1px solid #422675;
+	padding-left: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	height: 16px;
+	width: 300px;
+}
+
+.button
+{
+BORDER: #FFFFFF 1px solid; 
+FONT-SIZE: 11px; 
+COLOR: #ffffff; 
+font-family:Arial, Helvetica, sans-serif;
+BACKGROUND-COLOR: #432774;
+text-align:center;
+cursor:pointer;
+}
+.buttonVoltar
+{
+BORDER: #FFFFFF 1px solid; 
+FONT-SIZE: 11px; 
+COLOR: #ffffff; 
+font-family:Arial, Helvetica, sans-serif;
+BACKGROUND-COLOR: Red;
+text-align:center;
+cursor:pointer;
+}
